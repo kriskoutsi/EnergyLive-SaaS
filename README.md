@@ -1,8 +1,8 @@
 # EnergyLive-SaaS
-Dependencies
+## Dependencies
 MySQL/MariaDB for the databases
 
-Node.js with the following packages:
+## Node.js with the following packages:
 
 avsc
 axios
@@ -13,7 +13,7 @@ kafkajs
 mysql
 node-rdkafka
 socket.io
-React.js with the following packages:
+## React.js with the following packages:
 
 axios
 gapi-script
@@ -31,7 +31,7 @@ react-router-dom
 react-scripts
 react-select
 socket.io-client
-How to run locally:
+## How to run locally:
 ◽ run the shell script cluster-start.sh (starting cluster brokers brokers)
 ◽ run npm start inside the frontend folder in order to load the Frontend part of our Software on your browser
 ◽ run inside the API folder the following instructions in order to start the servers of the microservices:
@@ -41,5 +41,5 @@ How to run locally:
  ▫️npm run start:atl_producer
  ▫️npm run start:agpt_producer
 
-NOTICE
+## NOTICE
 Producers read a csv file every 5 seconds so as to simulate the data being updated (every one hour in reality).

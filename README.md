@@ -45,4 +45,4 @@ foo@bar:API$ npm run start:agpt_producer
 ```
 
 ## NOTICE
-Producers read a csv file every 5 seconds so as to simulate the data being updated (every one hour in reality).
+Producers read a csv file every 5 seconds in order to simulate the data being updated (every one hour in reality).

@@ -1,0 +1,46 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ }
+
+::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+  visibility: visible; 
+  background-color: rgb(210, 81, 249);
+ }
+
+::-webkit-scrollbar-track {
+  visibility: hidden;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(78, 1, 102);
+  visibility: visible;
+}
+
+body:hover::-webkit-scrollbar-thumb {
+  visibility: visible;
+}
+
+.Column_1::-webkit-scrollbar {
+  background-color: rgb(210, 81, 249);
+  width: 12px;
+  height: 12px;
+  visibility: visible; 
+  display: none;
+ }
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, sans-serif,'Courier New',
+    monospace;
+}

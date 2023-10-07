@@ -34,9 +34,9 @@ MySQL/MariaDB for the databases
 * socket.io-client
 
 ## How to run locally:
-◽ run the shell script cluster-start.sh (starting cluster brokers brokers)
-◽ run npm start inside the frontend folder in order to load the Frontend part of our Software on your browser
-◽ run inside the API folder the following instructions in order to start the servers of the microservices:
+1. Run the shell script cluster-start.sh (starting cluster brokers brokers)
+2. Run npm start inside the frontend folder in order to load the Frontend part of our Software on your browser
+3. Run inside the API folder the following instructions in order to start the servers of the microservices:
  ▫️npm run start:atl_consumer
  ▫️npm run start:agpt_consumer
  ▫️npm run start:users

@@ -5,32 +5,34 @@ MySQL/MariaDB for the databases
 ## Node.js with the following packages:
 
 * avsc
-axios
-body-parser
-cors
-express
-kafkajs
-mysql
-node-rdkafka
-socket.io
+* axios
+* body-parser
+* cors
+* express
+* kafkajs
+* mysql
+* node-rdkafka
+* socket.io
+
 ## React.js with the following packages:
 
-axios
-gapi-script
-highcharts
-highcharts-react-official
-moment
-react
-react-counter-input
-react-dom
-react-element-popper
-react-google-login
-react-multi-date-picker
-react-router
-react-router-dom
-react-scripts
-react-select
-socket.io-client
+* axios
+* gapi-script
+* highcharts
+* highcharts-react-official
+* moment
+* react
+* react-counter-input
+* react-dom
+* react-element-popper
+* react-google-login
+* react-multi-date-picker
+* react-router
+* react-router-dom
+* react-scripts
+* react-select
+* socket.io-client
+
 ## How to run locally:
 ◽ run the shell script cluster-start.sh (starting cluster brokers brokers)
 ◽ run npm start inside the frontend folder in order to load the Frontend part of our Software on your browser

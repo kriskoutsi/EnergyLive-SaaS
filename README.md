@@ -35,11 +35,17 @@
 1. Run the shell script cluster-start.sh (starting cluster brokers brokers)
 2. Run npm start inside the frontend folder in order to load the Frontend part of our Software on your browser
 3. Run inside the API folder the following instructions in order to start the servers of the microservices
-  * npm run start:atl_consumer
+ * npm run start:atl_consumer
   * npm run start:agpt_consumer
   * npm run start:users
   * npm run start:atl_producer
   * npm run start:agpt_producer
 
++ Sub-lists are made by indenting 2 spaces:
+  - Marker character change forces new list start:
+    * Ac tristique libero volutpat at
+    + Facilisis in pretium nisl aliquet
+    - Nulla volutpat aliquam velit
++ Very easy!
 ## NOTICE
 Producers read a csv file every 5 seconds so as to simulate the data being updated (every one hour in reality).

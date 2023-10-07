@@ -4,7 +4,7 @@ MySQL/MariaDB for the databases
 
 ## Node.js with the following packages:
 
--avsc
+* avsc
 axios
 body-parser
 cors

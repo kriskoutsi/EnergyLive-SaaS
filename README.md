@@ -37,11 +37,11 @@ foo@bar:~$ ./cluster-start.sh
 foo@bar:~$ cd frontend
 foo@bar:/frontend$ npm start
 foo@bar:~$ cd API
-foo@bar:API$ npm run start:atl_consumer
-foo@bar:API$ npm run start:agpt_consumer
-foo@bar:API$ npm run start:users
-foo@bar:API$ npm run start:atl_producer
-foo@bar:API$ npm run start:agpt_producer
+foo@bar:/API$ npm run start:atl_consumer
+foo@bar:/API$ npm run start:agpt_consumer
+foo@bar:/API$ npm run start:users
+foo@bar:/API$ npm run start:atl_producer
+foo@bar:/API$ npm run start:agpt_producer
 ```
 
 ## NOTICE
